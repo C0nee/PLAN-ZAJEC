@@ -1,0 +1,61 @@
+header{
+    text-align: center;
+}
+.Godzina{
+    background-color: #fbebe3;
+    border-radius: 15px;
+    text-align: center;
+    height: 5%;
+}
+#Godziny{
+    background-color: #f8cbad;
+    
+    border-radius: 12px;
+    text-align: center;
+    height: 90vh;
+
+}
+#GRID{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "Godz Pon WT SR CZ PT";
+}
+.Poniedzialek,.Wtorek,.sroda,.Czwartek,.Piatek,.Sobota,.Niedziela{
+    background-color: #fbebe3;
+    margin: 2%;
+    border-radius: 15px;
+    text-align: center;
+}
+.Lekcja{
+    background-color: #f8cbad;
+    margin: 8%;
+    font-size: large;
+    border-radius: 15px;
+    width: 70%;
+    
+}
+.Poniedzialek{
+    grid-area: "Pon";
+    text-align: center;
+    
+}
+.sala{
+   
+    text-align: center;
+}
+.Zajecia{
+    
+    text-align: center;
+}
+.Lekcja2{
+    background-color: #f8cbad;
+    margin: 8%;
+    font-size: large;
+    border-radius: 15px;
+    width: 70%;
+    color: #f8cbad;
+}
+@media screen and(max-width:1300px) {
+    
+}
